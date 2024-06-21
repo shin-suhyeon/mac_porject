@@ -15,7 +15,7 @@
     <script src="./script/index.js" defer></script>
 </head>
 <body>
-    <div class="header nav">
+    <div class="header_nav">
         <header>
             <h1><a href="#"><img src="./images/mac_logo.png" alt="mac"></a></h1>
             <nav>
@@ -45,13 +45,12 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide1"></div>
                     <div class="swiper-slide slide2"></div>
-                    <div class="swiper-slide slide3"></div>
                 </div>
             </div>
         </div>
         <!-- bg2 -->
         <div class="bg bg2">
-            <h1>Best</h1>
+            <h1 class="best">Best</h1>
             <div class="menu">
                 <a href="#">SKIN</a>
                 <a href="#">EYE</a>
@@ -66,16 +65,16 @@
                     </div>
                 </div>
                 <div class="bg2_detail_2">
-                    <a href="#"><img src="./images/bg2_2.png" alt="하이퍼 리얼 스킨캔버스 밤 모이스처라이징 크림"></a>
+                    <a href="#"><img src="./images/bg2_2.png" alt="라이트풀 C+ 코랄 그라스틴티드 프라이머"></a>
                     <div class="bg2_detail_1_box">
                         <h1>라이트풀 C+ 코랄 그라스틴티드 프라이머</h1>
                         <p>60,000원</p>
                     </div>
                 </div>
                 <div class="bg2_detail_3">
-                    <a href="#"><img src="./images/bg2_3.png" alt="하이퍼 리얼 스킨캔버스 밤 모이스처라이징 크림"></a>
+                    <a href="#"><img src="./images/bg2_3.png" alt="스튜디오 래디언스 모이스처라이징"></a>
                     <div class="bg2_detail_1_box">
-                        <h1>스튜디오 래디언스 모이스처라이징 </h1>
+                        <h1>스튜디오 래디언스 모이스처라이징</h1>
                         <p>60,000원</p>
                     </div>
                 </div>
@@ -102,14 +101,15 @@
         </div>
         <!-- bg5 -->
         <div class="bg bg5">
+            <h1 class="eventh1">EVENT</h1>
             <div class="bg5_wrap">
                 <div class="event_wrap">
                     <div class="swiper event">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide event1"><a href="#"><img src="./images/bg5_1.jpg" alt=""><div class="box"><h1>버츄얼 트라이 온 서비스</h1><a>체험하기</a></div></a></div>
-                            <div class="swiper-slide event2"><a href="#"><img src="./images/bg5_2.jpg" alt=""><div class="box"><h1>첫 구매 15% 할인</h1><a>체험하기</a></div></a></div>
-                            <div class="swiper-slide event3"><a href="#"><img src="./images/bg5_3.jpg" alt=""><div class="box"><h1>무료 뷰티 컨설팅</h1><a>예약하기</a></div></a></div>
-                            <div class="swiper-slide event4"><a href="#"><img src="./images/bg5_4.jpg" alt=""><div class="box"><h1>구매 금약 상관없는 무료배송</h1><a>무료배송으로 구매하기</a></div></a></div>
+                            <div class="swiper-slide event1"><a href="#"><img src="./images/bg5_1.jpg" alt=""><h2>버츄얼 트라이 온 서비스</h2><span>체험하기</span></a></div>
+                            <div class="swiper-slide event2"><a href="#"><img src="./images/bg5_2.jpg" alt=""><h2>첫 구매 15% 할인</h2><span>체험하기</span></a></div>
+                            <div class="swiper-slide event3"><a href="#"><img src="./images/bg5_3.jpg" alt=""><h2>무료 뷰티 컨설팅</h2><span>예약하기</span></a></div>
+                            <div class="swiper-slide event4"><a href="#"><img src="./images/bg5_4.jpg" alt=""><h2>구매 금액 상관없는 무료배송</h2><span>무료배송으로 구매하기</span></a></div>
                         </div> 
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -119,35 +119,38 @@
         </div>
         <!--bg6 -->
         <div class="bg bg6">
-            <h1>YUNJIN'S <span>PICK</span></h1>
-            <h2><img src="./images/bg6_1yunjin.jpg" alt=""></h2>
-            <div class="bg6_wrap">
-                <div class="yunjin_wrap">
-                    <div class="swiper yunjin">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide yunjin1"><a href="#"><img src="./images/bg6_2.png" alt=""><div class="box"><h3>스튜디오 픽스 롱웨어 쿠션 파운데이션</h3><p>73,000원</p><a>View more</a></div></a></div>
-                            <div class="swiper-slide yunjin2"><a href="#"><img src="./images/bg5_2.jpg" alt=""><div class="box"><h3>맥시멀 실키 매트 립스틱</h3><p>38,000원</p><a>View more</a></div></a></div>
-                            <div class="swiper-slide yunjin3"><a href="#"><img src="./images/bg5_3.jpg" alt=""><div class="box"><h3>커넥트 인 컬러 아이 섀도우 팔레트 X12/ 언필터드 누드스</h3><p>92,000원</p><a>View more</a></div></a></div>
-                        </div> 
+            <h1>YUNJIN'S <em>PICK</em></h1>
+            <div class="all">
+                <h2><img src="./images/bg6_1yunjin.jpg" alt=""></h2>
+                    <div class="bg6_wrap">
+                        <div class="yunjin_wrap">
+                            <div class="swiper yunjin">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide yunjin1"><a href="#"><div class="box"><img src="./images/bg6_2.png" alt=""><h3>스튜디오 픽스 롱웨어 쿠션 파운데이션</h3><p>73,000원</p><span>View more</span></div></a></div>
+                                    <div class="swiper-slide yunjin2"><a href="#"><div class="box"><img src="./images/bg6_3.png" alt=""><h3>맥시멀 실키 매트 립스틱</h3><p>38,000원</p><span>View more</span></div></a></div>
+                                    <div class="swiper-slide yunjin3"><a href="#"><div class="box"><img src="./images/bg6_4.png" alt=""><h3>커넥트 인 컬러 아이 섀도우 팔레트 X12/ <br> 언필터드 누드스</h3><p>92,000원</p><span>View more</span></div></a></div>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
         <!-- bg7 -->
-        <div class="bg bg7">
-            <a href="#">자세히 알아보기</a>
+        <a href="#"><div class="bg bg7"></div></a>
         </div>
         <!-- bg8 -->
         <div class="bg bg8">
+            <h1>#<em>새틴광</em> 메이크업 루틴</h1>
+            <h3>새틴광을 이용해서 도자기 같은 피부 표현을 만들어보세요</h3>
             <div class="bg8_wrap">
                 <div class="Routine_wrap">
                     <div class="swiper Routine">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide Routine1"><a href="#"><img src="./images/bg_8_1.png" alt=""><div class="box"><h1>스튜디오 픽스 롱웨어 쿠션 파운데이션</h1></div></a></div>
-                            <div class="swiper-slide Routine2"><a href="#"><img src="./images/bg_8_2.png" alt=""><div class="box"><h1>라이트풀 C+ 코랄 그라시틴티드 프라이머</h1></div></a></div>
-                            <div class="swiper-slide Routine3"><a href="#"><img src="./images/bg_8_3.png" alt=""><div class="box"><h1>하이퍼 리얼 세러마이저 스킨 밸런싱 세럼</h1></div></a></div>
-                            <div class="swiper-slide Routine4"><a href="#"><img src="./images/bg6_3.png" alt=""><div class="box"><h1>맥시멀 실키 매트 립스틱</h1></div></a></div>
-                            <div class="swiper-slide Routine5 "><a href="#"><img src="./images/bg_8_5.png" alt=""><div class="box"><h1>하이퍼 리얼 프레쉬 캔버스 클렌징 오일</h1></div></a></div>
+                            <div class="swiper-slide Routine1"><a href="#"><img src="./images/bg_8_1.png" alt=""><div class="box"><h2>스튜디오 픽스 롱웨어 쿠션 파운데이션</h2><p>73,000원</p></div></a></div>
+                            <div class="swiper-slide Routine2"><a href="#"><img src="./images/bg_8_2.png" alt=""><div class="box"><h2>라이트풀 C+ 코랄 그라시틴티드 프라이머</h2><p>60,000원</p></div></a></div>
+                            <div class="swiper-slide Routine3"><a href="#"><img src="./images/bg_8_3.png" alt=""><div class="box"><h2>하이퍼 리얼 세러마이저 스킨 밸런싱 세럼</h2><p>85,000원</p></div></a></div>
+                            <div class="swiper-slide Routine4"><a href="#"><img src="./images/bg6_3.png" alt=""><div class="box"><h2>맥시멀 실키 매트 립스틱</h2><p>38,000원</p></div></a></div>
+                            <div class="swiper-slide Routine5 "><a href="#"><img src="./images/bg_8_5.png" alt=""><div class="box"><h2>하이퍼 리얼 프레쉬 캔버스 클렌징 오일</h2><p>49,000원</p></div></a></div>
                         </div> 
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -165,29 +168,31 @@
             <a href="#">다른 지역 보기</a>
             <a href="#">맥 스토어</a>
         </div>
-        <div class="f_mid_1">
-            <dl>
-                <dt>사업자등록번호</dt>
-                <dd>211-81-71889</dd>
-                <dt>통신판매업신고번호</dt>
-                <dd>강남-15737호</dd>
-            </dl>
-            <h2>이엘씨에이한국(유) 대표 TENG, HSIAO-HUA</h2>
-        </div>
-        <div class="f_mid_2">
-            <dl>
-                <dt>호스팅서비스 사업자</dt>
-                <dd>㈜엘지유플러스</dd>
-                <dt>사업자 정보 조회</dt>
-                <dd>고객관리지원팀: 02-6971-3291</dd>
-            </dl>
-            <h2>서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232</h2>
+        <div class="f_mid">
+            <div class="f_mid_1">
+                <dl>
+                    <dt><span>사업자등록번호</span>211-81-71889</dt>
+                    <dd></dd>
+                    <dt><span>통신판매업신고번호</span> 강남-15737호</dt>
+                    <dd></dd>
+                    <dt>이엘씨에이한국(유) 대표 TENG, HSIAO-HUA</dt>
+                </dl>
+            </div>
+            <div class="f_mid_2">
+                <dl>
+                    <dt><span>호스팅서비스 사업자</span>㈜엘지유플러스</dt>
+                    <dd></dd>
+                    <dt><span>사업자 정보 조회</span> 고객관리지원팀: 02-6971-3291</dt>
+                    <dd></dd>
+                    <dt>서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232</dt>
+                </dl>
+            </div>
         </div>
         <div class="f_sns">
             <a href="#"><img src="./images/icon_sns1.png" alt="유튜브"></a>
             <a href="#"><img src="./images/icon_sns2.png" alt="페이스북"></a>
             <a href="#"><img src="./images/icon_sns3.png" alt="인스타"></a>
-            <a href="#"><img src="./images/icon_sns4.png" alt="">트위터</a>
+            <a href="#"><img src="./images/icon_sns4.png" alt="트위터"></a>
         </div>
         <p>&copy; MAKE-UP ART COSMETICS. ALL WORLDWIDE RIGHTS RESERVED.</p>
     </footer>
