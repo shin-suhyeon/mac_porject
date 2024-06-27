@@ -1,14 +1,13 @@
 /*============================================================================== header=========================================================================================================== */
-.header_nav {background-color: red; display: flex; height: 130px; width: 1920px;} 
+.header_nav {display: flex; height: 130px; width: 1920px;} 
 .header_nav header{display: flex; align-items: center;}
-.header_nav header h1{background-color: blue;}
-.header_nav header h1 a{background-color: violet; margin-left: 90px; margin-right: 270px;}
-.header_nav header h1 a img{background-color: aqua;}
-.header_nav header nav{background-color: yellow;}
+.header_nav header h1{}
+.header_nav header h1 a{margin-left: 90px; margin-right: 270px;}
+.header_nav header h1 a img{}
+.header_nav header nav{}
 .header_nav header nav .nav_bg{}
-.header_nav header nav .nav_bg a{}
-.header_nav header nav .nav_bg a img{margin-right: 80px;}  
-.header_nav header .nav_icons{background-color: beige; margin-left: 213px;}
+.header_nav header nav .nav_bg a{margin-right: 80px;}
+.header_nav header .nav_icons{margin-left: 213px;}
 .header_nav header .nav_icons a{}
 .header_nav header .nav_icons a img{}
 /*============================================================================== bg1=========================================================================================================== */
@@ -18,13 +17,10 @@
 /*============================================================================== bg2=========================================================================================================== */
 .bg2 {}
 .bg2 .bg2_left{}
-.bg2 .bg2_left h1{}
-.bg2 .bg2_left h1 img{}
+.bg2 .bg2_left h1{font-family: "Playfair+Display", "맑은고딕",sans-serif;}
 .bg2 .bg2_left h2{}
-.bg2 .bg2_left h2 img{}
 .bg2 .bg2_left p{}
 .bg2 .bg2_left h3{}
-.bg2 .bg2_left h3 img{}
 .bg2 .bg2_left a{}
 .bg2 .bg2_left a img{}
 .bg2 .bg2_right{}
@@ -62,8 +58,7 @@
 .bg4 h1{}
 .bg4 h1 img{}
 .bg4 .bg4_detail{}
-.bg4 .bg4_detail h2{}
-.bg4 .bg4_detail h2 img{}
+.bg4 .bg4_detail h2{font-family: "Red+Hat+Display", "맑은고딕",sans-serif;}
 .bg4 .bg4_detail h3{}
 .bg4 .bg4_detail p{}
 .bg4 .bg4_detail a{}
@@ -92,12 +87,9 @@
 .bg7 h1{}
 .bg7 h1 img{}
 .bg7 .bg7_left{}
-.bg7 .bg7_left h2{}
-.bg7 .bg7_left h2 img{}
+.bg7 .bg7_left h2{font-family: "Playfair+Display" ,sans-serif;}
 .bg7 .bg7_left h3{}
-.bg7 .bg7_left h3 img{}
 .bg7 .bg7_left h4{}
-.bg7 .bg7_left h4 img{}
 .bg7 .bg7_left a{}
 .bg7 .bg7_left a img{}
 .bg7 .bg7_left h5{}
