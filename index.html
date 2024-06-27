@@ -10,15 +10,13 @@
     <!--플러그인 필수 JS cdn 연결-->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/index.css">
-    <script src="./script/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./script/index.js" defer></script>
 </head>
 <body>
     <!--========================================================= header =============================================================================================-->
@@ -43,7 +41,6 @@
     <main>
         <!-- ==========================================================bg1====================================================================================================== -->
         <div class="bg bg1">
-            <div class="swiper-pagination"></div>
             <div class="swiper visual">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide1"></div>
@@ -66,7 +63,7 @@
         </div>
         <!-- ==========================================================bg3====================================================================================================== -->
         <div class="bg3">
-            <h1>Best seller</h1>
+            <h1 class="best_seller">Best seller</h1>
             <div class="best_nav">
                 <a href="#"><img src="./images/Skin.png" alt="Skin"></a>
                 <a href="#"><img src="./images/Eye.png" alt="eye"></a>
@@ -96,8 +93,8 @@
             </div>
         </div>
         <!-- ==========================================================bg4====================================================================================================== -->
-        <div class="bg .bg4">
-            <h1><img src="./images/bg4.jpg" alt=""></h1>
+        <div class="bg bg4">
+            <div class="bg4_img"><h1><img src="./images/bg4.jpg" alt=""></h1></div>
             <div class="bg4_detail">
                 <h2>HYPER REAL SERUMIZER™<br>SKIN BALANCING<br><span>HYDRATION SERUM</span></h2>
                 <h3>하이퍼 리얼™ 세러마이저 스킨 밸런싱 하이드레이션 세럼</h3>
@@ -127,20 +124,22 @@
         <!-- ==========================================================bg7====================================================================================================== -->
         <div class="bg7">
             <h1><img src="./images/routine.png" alt=""></h1>
-            <div class="bg7_left">
-                <h2>HYPER REAL SERUMIZER™<br>SKIN BALANCING<br>HYDRATION SERUM</h2>
-                <h3>하이퍼 리얼™ 세러마이저 스킨 밸런싱 하이드레이션 세럼</h3>
-                <h4>완벽한 메이크업에 대한 맥의 본질적인 고민에서 탄생한<br>맥 하이퍼 리얼™ 스킨케어</h4>
-                <a href="#"><img src="./images/view_more.png" alt=""></a>
-                <h5><img src="./images/bg7_line.jpg" alt=""></h5>
-            </div>
-            <div class="bg7_right">
-                <h2><img src="./images/bg7_cosmetics.png" alt=""></h2>
+            <div class="all">
+                <div class="bg7_left">
+                    <h2>HYPER REAL SERUMIZER™<br>SKIN BALANCING<br><span>HYDRATION SERUM</span></h2>
+                    <h3>하이퍼 리얼™ 세러마이저 스킨 밸런싱 하이드레이션 세럼</h3>
+                    <h4>완벽한 메이크업에 대한 맥의 본질적인 고민에서 탄생한<br>맥 하이퍼 리얼™ 스킨케어</h4>
+                    <a href="#"><img src="./images/view_more.png" alt=""></a>
+                    <h5><img src="./images/bg7_line.jpg" alt=""></h5>
+                </div>
+                <div class="bg7_right">
+                    <h2><img src="./images/bg7_cosmetics.png" alt=""></h2>
+                </div>
             </div>
         </div>
         <!-- ==========================================================bg8====================================================================================================== -->
         <div class="bg8">
-            <h1><img src="./images/EVENT.png" alt="EVENT"></h1>
+            <h1>EVENT</h1>
             <div class="bg8_menu">
                 <div class="bg8_menu1">
                     <h2><img src="./images/bg8_1.jpg" alt=""></h2>
@@ -163,16 +162,22 @@
         <div class="bg9">
             <h1><img src="./images/try_on.png" alt="Virtual Try-on Service"></h1>
             <p>가상으로 카메라를 통해 나에게 맞는 파운데이션 컬러를 찾아보세요</p>
-            <h2><img src="./images/bg9_person.jpg" alt=""></h2>
-            <div class="bg9_right">
-                <h3><img src="./images/bg9_cosmetics.png" alt=""></h3>
-                <h4>STUDIO FIX FLUID SKIN BALANCING<br>
-                    COMPLEX LONGWEAR<br>
-                    SOFT MATTE FOUNDATION</h4>
-                <h5>스튜디오 픽스 플루이드 SPF 25/PA++ 스킨 밸런싱 콤플렉스<br>
-                    롱웨어 소프트 매트 파운데이션</h5>
-                <a href="#"><img src="./images/view_more.png" alt=""></a>
-                <h6><img src="./images/bg9_line.png" alt=""></h6>
+            <div class="all">
+                <h2><img src="./images/bg9_person.jpg" alt=""></h2>
+                <div class="bg9_right">
+                    <div class="omg">
+                        <h3><img src="./images/bg9_cosmetics.png" alt=""></h3>
+                    </div>
+                    <div class="detail">
+                        <h4>STUDIO FIX FLUID SKIN BALANCING<br>
+                            COMPLEX LONGWEAR<br>
+                            SOFT MATTE FOUNDATION</h4>
+                        <h5>스튜디오 픽스 플루이드 SPF 25/PA++ 스킨 밸런싱 콤플렉스<br>
+                            롱웨어 소프트 매트 파운데이션</h5>
+                        <a href="#"><img src="./images/view_more.png" alt=""></a>
+                        <h6><img src="./images/bg9_line.png" alt=""></h6>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
