@@ -27,27 +27,27 @@ main .bg1 .visual .swiper-wrapper .slide2 {background-image: url(../images/bg1_1
 .bg2 .bg2_right h1{}
 .bg2 .bg2_right h1 img{padding-left: 100px;}
 /*============================================================================== bg3=========================================================================================================== */
-.bg3 {background-color: black; color: white; margin-top: 126px  ;}
-.bg3 .best_seller {font-family: "Playfair Display"; font-size: 3.75rem; font-weight: 700; padding-top: 58px; margin-left: 1128px;}
-.bg3 .best_nav{margin-left: 1131px; margin-top: 30px;}
-.bg3 .best_nav a{margin-right: 81px;}
+.bg3 {background-color: black; color: white; margin-top: 126px;}
+.bg3 .best_seller {font-family: "Playfair Display"; font-size: 3.75rem; font-weight: 700; padding-top: 90px; margin-left: 1128px;}
+.bg3 .best_nav{margin-left: 1120px; margin-top: 40px;}
+.bg3 .best_nav a{margin-right: 100px;}
 .bg3 .best_menu{display: flex;}
 .bg3 .best_menu .best_menu1{}
 .bg3 .best_menu .best_menu1 h1{}
 .bg3 .best_menu .best_menu1 h1 img{}
 .bg3 .best_menu .best_menu1 h2{ margin-left: 52px; margin-top: 8px;}
 .bg3 .best_menu .best_menu1 p{margin-left: 52px; margin-top: 8px; margin-bottom: 110px;}
-.bg3 .best_menu .best_menu2{margin-top: 120px;}
+.bg3 .best_menu .best_menu2{margin-top: 100px;}
 .bg3 .best_menu .best_menu2 h1{}
 .bg3 .best_menu .best_menu2 h1 img{}
 .bg3 .best_menu .best_menu2 h2{margin-left: 62px; margin-top: 8px;}
 .bg3 .best_menu .best_menu2 p{margin-left: 62px; margin-top: 8px; }
-.bg3 .best_menu .best_menu3{margin-top: 120px;}
+.bg3 .best_menu .best_menu3{margin-top: 100px;}
 .bg3 .best_menu .best_menu3 h1{}
 .bg3 .best_menu .best_menu3 h1 img{}
 .bg3 .best_menu .best_menu3 h2{margin-left: 66px; margin-top: 8px;}
 .bg3 .best_menu .best_menu3 p{margin-left: 66px; margin-top: 8px;}
-.bg3 .best_menu .best_menu4{margin-top: 120px;}
+.bg3 .best_menu .best_menu4{margin-top: 100px;}
 .bg3 .best_menu .best_menu4 h1{}
 .bg3 .best_menu .best_menu4 h1 img{}
 .bg3 .best_menu .best_menu4 h2{margin-left: 66px; margin-top: 8px;}
@@ -93,7 +93,7 @@ main .bg1 .visual .swiper-wrapper .slide2 {background-image: url(../images/bg1_1
 .bg7 .all .bg7_left h3{font-size: 1.5rem;font-family: "Red Hat Display", "맑은고딕",sans-serif; margin-top: 16px; margin-bottom: 48px;}
 .bg7 .all .bg7_left h4{ color: #6D6D6D;  font-size: 1.25rem; line-height: 1.3; margin-bottom: 26px;}
 .bg7 .all .bg7_left a{}
-.bg7 .all .bg7_left a img{margin-bottom: 129px;}
+.bg7 .all .bg7_left a img{margin-bottom: 100px;}
 .bg7 .all .bg7_left h5{}
 .bg7 .all .bg7_left h5 img{}
 .bg7 .all .bg7_right{margin-left: 100px;}
@@ -127,32 +127,32 @@ main .bg1 .visual .swiper-wrapper .slide2 {background-image: url(../images/bg1_1
 .bg9 .all h2{margin-top: 70px; margin-left: 383px;}
 .bg9 .all h2 img{}
 .bg9 .all .bg9_right{display: flex;}
-.bg9 .all .bg9_right .omg h3{}
+.bg9 .all .bg9_right .omg h3{margin-top: 70px;}
 .bg9 .all .bg9_right .omg h3 img{}
-.bg9 .all .bg9_right .detail {}
-.bg9 .all .bg9_right .detail h4{}
-.bg9 .all .bg9_right .detail h4 img{}
-.bg9 .all .bg9_right .detail h5{}
-.bg9 .all .bg9_right .detail h5 img{}
+.bg9 .all .bg9_right .detail {margin-top: 213px;}
+.bg9 .all .bg9_right .detail h4{font-size: 1.5rem; font-family: "Red Hat Display", "맑은고딕",sans-serif; line-height: 1.1; margin-bottom: 22px;}
+.bg9 .all .bg9_right .detail h5{margin-bottom: 55px;}
 .bg9 .all .bg9_right .detail a{}
-.bg9 .all .bg9_right .detail a img{}
-.bg9 .all .bg9_right .detail h6{}
-.bg9 .all .bg9_right .detail h6 img{}
+.bg9 .all .bg9_right .detail a img{margin-bottom: 171px;}
+.bg9 h6{}
+.bg9 h6 img{margin-left: 1150px;}
 /*============================================================================== footer=========================================================================================================== */
-footer {}
-footer .f_top{}
-footer .f_top a{}
-footer .f_mid{}
-footer .f_mid .f_mid1{}
+footer {background-color: black; color: white; margin-top: 110px; font-size: 1.125rem;}
+footer .f_top{padding-top: 43px; text-align: center; margin-bottom: 60px;}
+footer .f_top a{color: white; font-family: "Red Hat Display", "맑은고딕",sans-serif;  margin-right: 50px;}
+footer .f_mid{display: flex;}
+footer .f_mid .f_mid1{margin-left: 506px; margin-right: 150px;}
 footer .f_mid .f_mid1 dl{}
-footer .f_mid .f_mid1 dl dt{}
-footer .f_mid .f_mid1 dl dt span{}
+footer .f_mid .f_mid1 dl dt{ font-family: "Red Hat Display", "맑은고딕",sans-serif; margin-bottom: 19px; font-weight: 500;}
+footer .f_mid .f_mid1 dl dt span{ font-family: "Red Hat Display", "맑은고딕",sans-serif; font-weight: 400; margin-left: 50px; }
+footer .f_mid .f_mid1 dl dt .detail{ font-family: "Red Hat Display", "맑은고딕",sans-serif; font-weight: 400; margin-left: 53px; }
 footer .f_mid .f_mid1 dl dd{}
 footer .f_mid .f_mid2{}
 footer .f_mid .f_mid2 dl{}
-footer .f_mid .f_mid2 dl dt{}
-footer .f_mid .f_mid2 dl dt span{}
+footer .f_mid .f_mid2 dl dt{ font-family: "Red Hat Display", "맑은고딕",sans-serif; margin-bottom: 19px;font-weight: 500;}
+footer .f_mid .f_mid2 dl dt span{ font-family: "Red Hat Display", "맑은고딕",sans-serif; font-weight: 400;  margin-left: 50px; }
+footer .f_mid .f_mid2 dl dt .detail{ font-family: "Red Hat Display", "맑은고딕",sans-serif; font-weight: 400;  margin-left: 59px; }
 footer .f_mid .f_mid2 dl dd{}
-footer .f_sns{}
-footer .f_sns a{}
-footer p{}
+footer .f_sns{text-align: center; margin-top: 50px;}
+footer .f_sns a{margin-right: 20px;}
+footer p{ font-family: "Red Hat Display", "맑은고딕",sans-serif; font-size: 1rem;text-align: center; margin-top: 20px; padding-bottom: 35px; }
