@@ -1,157 +1,163 @@
-body,html {width: 1920px;}
-.header_nav {height: 112px;}
-.header_nav header {display: flex; align-items: center;padding-top: 31px;}
-.header_nav header h1 {display: inline;}
-.header_nav header h1 a img {margin-left: 90px; margin-right: 233px; }
-.header_nav header nav .nav_bg .gnb{display: flex; margin-right: 229px;}
-.header_nav header nav .nav_bg .gnb li{font-size: 1.25rem;}
-.header_nav header .nav_icons a img{ margin-right: 25px;}
-.header_nav header nav .nav_bg .gnb li a{margin-right: 60px;}
-/* bg1 */
-.visual {width: 1920px; height: 1079px;}
-.visual .slide1 {background-image: url(../images/bg1.jpg);}
-.visual .slide2 {background-image: url(../images/bg1_2.jpg);}
-/* bg2 */
-.bg2{text-align: center;}
-.bg2 .best{font-size: 3rem; font-weight: 500; text-align: center; margin: 114px 0 50px;}
-.bg2 .menu{text-align: center;}
-.bg2 .menu a{margin-right: 70px; font-size: 1.625rem;}
-.bg2 .menu :nth-child(3){margin: 0; color: #B4B4B4;font-size: 1.5rem;}
-.bg2 .menu :nth-child(2){color: #B4B4B4;font-size: 1.5rem;}
-.bg2 .menu :nth-child(1){border-bottom: 1px solid black;}
-/* bg2 상품들 */
-.bg2 .bg2_detail{display: flex;}
-.bg2 .bg2_detail .bg2_detail_1{margin-right: 168px; margin-left: 200px; margin-top: 44px;}
-.bg2 .bg2_detail .bg2_detail_3 .bg2_detail_1_box{text-align: center;}
-.bg2 .bg2_detail .bg2_detail_2{margin-right: 130px;margin-top: 44px;}
-.bg2 .bg2_detail .bg2_detail_3{margin-top: 44px;}
-.bg2 .bg2_detail .bg2_detail_1 .bg2_detail_1_box,
-.bg2 .bg2_detail .bg2_detail_2 .bg2_detail_1_box,
-.bg2 .bg2_detail .bg2_detail_1 .bg2_detail_1_box h1,
-.bg2 .bg2_detail .bg2_detail_2 .bg2_detail_1_box h1,
-.bg2 .bg2_detail .bg2_detail_3 .bg2_detail_1_box h1{font-size: 1.125rem;}
-.bg2 .bg2_detail .bg2_detail_1 .bg2_detail_1_box p,
-.bg2 .bg2_detail .bg2_detail_2 .bg2_detail_1_box p,
-.bg2 .bg2_detail .bg2_detail_3 .bg2_detail_1_box p{margin-top: 11px; color: #888888; font-size: 1.125rem;}
-/* bg3 */
-.bg3 {background-color: black; margin-top: 207px; display: flex; height: 983px;}
-.bg3 h1{margin-left: 288px; margin-right: 169px; margin-top: 164px;} 
-.bg3 .bg3_detail{margin-top: 300px;}
-.bg3 .bg3_detail h2{color: red; font-size: 3rem; font-weight: 500; margin-bottom: 33px;}
-.bg3 .bg3_detail h3{font-size: 2.25rem; font-weight: 500; color: white; margin-bottom: 11px;}
-.bg3 .bg3_detail h4{font-size: 1.5rem; font-weight: 500; color: white; margin-bottom: 51px;}
-.bg3 .bg3_detail p{font-size: 1.25rem; color: #bdbdbd; margin-bottom: 133px; line-height: 28px;}
-.bg3 .bg3_detail a{font-size: 1.25rem;color: white; border-bottom: 1px solid white; margin-bottom: 308px;}
-/* bg4 */
-.bg4 .bg4_detail{text-align: center;}
-.bg4 .bg4_detail h1{margin-top: 187px; font-size: 3rem; margin-bottom: 30px; font-weight: 500; display: flex; justify-content: center; }
-.bg4 .bg4_detail h1 img{margin-left: 5px;}
-.bg4 .bg4_detail p{font-size: 1.5rem; color: #565656; margin-bottom: 68px;}
-.bg4 a img {margin-left: 432px; margin-bottom: 187px;}
-/* bg5 */
-.bg5{background-color: black; height: 612px;}
-.bg5 .eventh1{color: white; text-align: center; font-size: 3rem; font-weight: 500; padding-top: 89px; margin-bottom: 71px;}
-.bg5 .bg5_wrap{text-align: center;}
-.bg5 .bg5_wrap .event_wrap {width: 1500px; margin: 0 auto;}
-.bg5 .bg5_wrap .event_wrap .event{padding-bottom: 2px;}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper{}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper > div {}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper > div a{}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper > div a h2{}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper > div a span{}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event1 a h2,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event2 a h2,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event3 a h2,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event4 a h2{color: white; margin-top: 26px; font-size: 1.25rem; margin-bottom: 15px; font-weight: 400;}
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event1 a span,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event2 a span,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event3 a span,
-.bg5 .bg5_wrap .event_wrap .event .swiper-wrapper .event4 a span{color: white; font-size: 1.125rem; font-weight: 400; border-bottom: 1px solid white;}
-/* bg6 */
-.bg6 {text-align: center;}
-.bg6 h1{margin-top: 154px; text-align: center; font-size: 2.875rem; font-weight: 500; margin-bottom: 104px;}
-.bg6 h1 em{font-size: 3rem; font-weight: 600;}
-.bg6 .all{display: flex;}
-.bg6 .all h2{width: 60%; display: block;}
-.bg6 .all h2 img{}
-.bg6 .all .bg6_wrap{width: 40%;}
-.bg6 .all .bg6_wrap .yunjin_wrap{margin-top: 53px;}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a img,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a img,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a img{height: 345px;}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a .box,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a .box,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a .box{width: 400px; height: 500px;}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a .box h3,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a .box h3,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a .box h3{font-size: 1.5rem; }
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a p,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a p,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a p{font-size: 1.25rem; color: #424242; margin-bottom: 77px; margin-top: 15px;}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin1 a .box span,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a .box span,
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a .box span{border-bottom: 1px solid black;}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a .box span {}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 .box a img{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a h3{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a p{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin2 a span{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a img{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a h3{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a p{}
-.bg6 .all .bg6_wrap .yunjin_wrap .yunjin .swiper-wrapper .yunjin3 a span{}
-/* bg7 */
-a .bg7 {background: url(../images/bg7.png); height: 294px; margin-top: 204px; margin-bottom: 153px;}
-/* bg8 */
+/*============================================================================== header=========================================================================================================== */
+.header_nav {background-color: red; display: flex; height: 130px; width: 1920px;} 
+.header_nav header{display: flex; align-items: center;}
+.header_nav header h1{background-color: blue;}
+.header_nav header h1 a{background-color: violet; margin-left: 90px; margin-right: 270px;}
+.header_nav header h1 a img{background-color: aqua;}
+.header_nav header nav{background-color: yellow;}
+.header_nav header nav .nav_bg{}
+.header_nav header nav .nav_bg a{}
+.header_nav header nav .nav_bg a img{margin-right: 80px;}  
+.header_nav header .nav_icons{background-color: beige; margin-left: 213px;}
+.header_nav header .nav_icons a{}
+.header_nav header .nav_icons a img{}
+/*============================================================================== bg1=========================================================================================================== */
+.visual {width: 1920px;}
+.visual .slide1 {background-image: url(../images/bg1_1.jpg);}
+.visual .slide2 {background-image: url(../images/bg1_1.jpg);}
+/*============================================================================== bg2=========================================================================================================== */
+.bg2 {}
+.bg2 .bg2_left{}
+.bg2 .bg2_left h1{}
+.bg2 .bg2_left h1 img{}
+.bg2 .bg2_left h2{}
+.bg2 .bg2_left h2 img{}
+.bg2 .bg2_left p{}
+.bg2 .bg2_left h3{}
+.bg2 .bg2_left h3 img{}
+.bg2 .bg2_left a{}
+.bg2 .bg2_left a img{}
+.bg2 .bg2_right{}
+.bg2 .bg2_right h1{}
+.bg2 .bg2_right h1 img{}
+/*============================================================================== bg3=========================================================================================================== */
+.bg3 {}
+.bg3 h1 {}
+.bg3 h1 img{}
+.bg3 .best_nav{}
+.bg3 .best_nav a{}
+.bg3 .best_menu{}
+.bg3 .best_menu .best_menu1{}
+.bg3 .best_menu .best_menu1 h1{}
+.bg3 .best_menu .best_menu1 h1 img{}
+.bg3 .best_menu .best_menu1 h2{}
+.bg3 .best_menu .best_menu1 p{}
+.bg3 .best_menu .best_menu2{}
+.bg3 .best_menu .best_menu2 h1{}
+.bg3 .best_menu .best_menu2 h1 img{}
+.bg3 .best_menu .best_menu2 h2{}
+.bg3 .best_menu .best_menu2 p{}
+.bg3 .best_menu .best_menu3{}
+.bg3 .best_menu .best_menu3 h1{}
+.bg3 .best_menu .best_menu3 h1 img{}
+.bg3 .best_menu .best_menu3 h2{}
+.bg3 .best_menu .best_menu3 p{}
+.bg3 .best_menu .best_menu4{}
+.bg3 .best_menu .best_menu4 h1{}
+.bg3 .best_menu .best_menu4 h1 img{}
+.bg3 .best_menu .best_menu4 h2{}
+.bg3 .best_menu .best_menu4 p{}
+/*============================================================================== bg4=========================================================================================================== */
+.bg4 {}
+.bg4 h1{}
+.bg4 h1 img{}
+.bg4 .bg4_detail{}
+.bg4 .bg4_detail h2{}
+.bg4 .bg4_detail h2 img{}
+.bg4 .bg4_detail h3{}
+.bg4 .bg4_detail p{}
+.bg4 .bg4_detail a{}
+.bg4 .bg4_detail a img{}
+/*============================================================================== bg5=========================================================================================================== */
+.bg5 {}
+.bg5 .bg5_left{}
+.bg5 .bg5_left h1{}
+.bg5 .bg5_left h1 img{}
+.bg5 .bg5_left .bg5_left_cosmetics{}
+.bg5 .bg5_left .bg5_left_cosmetics a{}
+.bg5 .bg5_left .bg5_left_cosmetics a img{}
+.bg5 .bg5_left .bg5_left_cosmetics h2{}
+.bg5 .bg5_left .bg5_left_cosmetics p{}
+.bg5 .bg5_left .bg5_left_cosmetics h3{}
+.bg5 .bg5_left .bg5_left_cosmetics h3 img{}
+.bg5 .bg5_left .bg5_right{}
+.bg5 .bg5_left .bg5_right h1{}
+.bg5 .bg5_left .bg5_right h1 img{}
+/*============================================================================== bg6=========================================================================================================== */
+.bg6 {}
+.bg6 a{}
+.bg6 a img{}
+/*============================================================================== bg7=========================================================================================================== */
+.bg7 {}
+.bg7 h1{}
+.bg7 h1 img{}
+.bg7 .bg7_left{}
+.bg7 .bg7_left h2{}
+.bg7 .bg7_left h2 img{}
+.bg7 .bg7_left h3{}
+.bg7 .bg7_left h3 img{}
+.bg7 .bg7_left h4{}
+.bg7 .bg7_left h4 img{}
+.bg7 .bg7_left a{}
+.bg7 .bg7_left a img{}
+.bg7 .bg7_left h5{}
+.bg7 .bg7_left h5 img{}
+.bg7 .bg7_right{}
+.bg7 .bg7_right h2{}
+.bg7 .bg7_right h2 img{}
+/*============================================================================== bg8=========================================================================================================== */
 .bg8 {}
-.bg8 h1{font-size: 2.875rem; text-align: center; font-weight: 500; margin-bottom: 20px;}
-.bg8 h1 em{font-size: 3rem; font-weight: 600;}
-.bg8 h3{text-align: center; font-size: 1.5rem; color: #565656;}
-.bg8 .bg8_wrap{text-align: center; margin-top: 65px;}
-.bg8 .bg8_wrap .Routine_wrap{width: 1600px; margin: 0 auto;}
-.bg8 .bg8_wrap .Routine_wrap .Routine{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1 a{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1 a img{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1 a .box{}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1 a .box h2,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine2 a .box h2,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine3 a .box h2,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine4 a .box h2,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine5 a .box h2{font-size: 1.125rem; margin-top: 15px; font-weight: 500;}
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine1 a .box p,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine2 a .box p,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine3 a .box p,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine4 a .box p,
-.bg8 .bg8_wrap .Routine_wrap .Routine .swiper-wrapper .Routine5 a .box p{font-size: 1.125rem; color: #888888; margin-top: 15px;}
-footer {background-color: black; color: white; height: 495px; margin-top: 238px;}
-footer .f_top{text-align: center; padding-top: 53px; margin-bottom: 66px;}
-footer .f_top a{color: white; margin-right: 50px; font-size: 1.25rem;}
-footer .f_mid{margin-left: 483px; display: flex; font-size: 1.25rem;}
-footer .f_mid .f_mid_1{margin-right: 112px;}
-footer .f_mid .f_mid_1 dl{}
-footer .f_mid .f_mid_1 dl dt{} 
-footer .f_mid .f_mid_1 dl dt span {font-weight: 500; margin-right: 50px;} 
-footer .f_mid .f_mid_1 dl dt .mid1 {font-weight: 500; margin-right: 93px;} 
-footer .f_mid .f_mid_1 dl dd{ display: inline-block;}
-footer .f_mid .f_mid_1 h2{}
-footer .f_mid .f_mid_2{}
-footer .f_mid .f_mid_2 dl{}
-footer .f_mid .f_mid_2 dl dt{}
-footer .f_mid .f_mid_2 dl dt span{font-weight: 500; margin-right: 50px; }
-footer .f_mid .f_mid_2 dl dt .mid2{font-weight: 500; margin-right: 75px;}
-footer .f_mid .f_mid_2 dl dd{display: inline-block; }
-footer .f_mid .f_mid_2 h2{}
-footer .f_sns{text-align: center; margin-top: 66px;}
-footer .f_sns a{margin-right: 20px;}
-footer .f_sns a img{}
-footer p{text-align: center; margin-top: 33px;}
+.bg8 h1 {}
+.bg8 h1 img{}
+.bg8 .bg8_menu{}
+.bg8 .bg8_menu .bg8_menu1{}
+.bg8 .bg8_menu .bg8_menu1 h2{}
+.bg8 .bg8_menu .bg8_menu1 h2 img{}
+.bg8 .bg8_menu .bg8_menu1 h3{}
+.bg8 .bg8_menu .bg8_menu1 a{}
+.bg8 .bg8_menu .bg8_menu2{}
+.bg8 .bg8_menu .bg8_menu2 h2{}
+.bg8 .bg8_menu .bg8_menu2 h2 img{}
+.bg8 .bg8_menu .bg8_menu2 h3{}
+.bg8 .bg8_menu .bg8_menu2 a{}
+.bg8 .bg8_menu .bg8_menu3{}
+.bg8 .bg8_menu .bg8_menu3 h2{}
+.bg8 .bg8_menu .bg8_menu3 h2 img{}
+.bg8 .bg8_menu .bg8_menu3 h3{}
+.bg8 .bg8_menu .bg8_menu3 a{}
+/*============================================================================== bg9=========================================================================================================== */
+.bg9 {}
+.bg9 h1{}
+.bg9 h1 img{}
+.bg9 p{}
+.bg9 h2{}
+.bg9 h2 img{}
+.bg9 .bg9_right{}
+.bg9 .bg9_right h3{}
+.bg9 .bg9_right h3 img{}
+.bg9 .bg9_right h4{}
+.bg9 .bg9_right h4 img{}
+.bg9 .bg9_right h5{}
+.bg9 .bg9_right h5 img{}
+.bg9 .bg9_right a{}
+.bg9 .bg9_right a img{}
+.bg9 .bg9_right h6{}
+.bg9 .bg9_right h6 img{}
+/*============================================================================== footer=========================================================================================================== */
+footer {}
+footer .f_top{}
+footer .f_top a{}
+footer .f_mid{}
+footer .f_mid .f_mid1{}
+footer .f_mid .f_mid1 dl{}
+footer .f_mid .f_mid1 dl dt{}
+footer .f_mid .f_mid1 dl dt span{}
+footer .f_mid .f_mid1 dl dd{}
+footer .f_mid .f_mid2{}
+footer .f_mid .f_mid2 dl{}
+footer .f_mid .f_mid2 dl dt{}
+footer .f_mid .f_mid2 dl dt span{}
+footer .f_mid .f_mid2 dl dd{}
+footer .f_sns{}
+footer .f_sns a{}
+footer p{}
